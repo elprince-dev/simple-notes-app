@@ -1,9 +1,10 @@
 
 h3 {
-    background-color: aqua;
+    background-color: rgb(127, 226, 213);
     text-align: center;
     padding: 5px 20px;
     margin: 5px auto;
     width: fit-content;
     border-radius: 10px;
+    font-size:x-large
 }

@@ -10,12 +10,17 @@ function App() {
   ]
 
   return (
-    <>
-      <div className='note'>
+    <div className='app'>
         <h1>Simple Note App</h1>
-        <Note content={"this is my first note"}/>
-      </div>
-    </>
+        <div className='notes'>
+          {notes.map(note => (
+          <Note content={note}/>
+        ))}
+        </div>
+        
+
+
+    </div>
   )
 }
 
