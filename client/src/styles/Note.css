@@ -1,0 +1,9 @@
+
+h3 {
+    background-color: aqua;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 5px auto;
+    width: fit-content;
+    border-radius: 10px;
+}

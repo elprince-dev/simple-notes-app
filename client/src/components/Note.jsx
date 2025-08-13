@@ -1,8 +1,13 @@
 import React from 'react'
+import '../styles/Note.css'
 
-const Note = () => {
+const Note = ({content}) => {
   return (
-    <div>Note</div>
+    <div>
+        <h3>
+            {content}
+        </h3>
+    </div>
   )
 }
 
